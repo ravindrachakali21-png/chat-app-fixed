@@ -41,7 +41,7 @@ const Sidebar = () => {
 
       <div onClick={theme.toggleDark} style={{ width: '46px', height: '26px', background: '#2563eb', borderRadius: '999px', position: 'relative', marginBottom: '16px', cursor: 'pointer', boxShadow: '0 2px 8px rgba(37,99,235,0.3)' }}>
         <div style={{ position: 'absolute', left: theme.darkMode ? 'calc(100% - 23px)' : '3px', top: '3px', width: '20px', height: '20px', background: 'white', borderRadius: '50%', boxShadow: '0 1px 4px rgba(0,0,0,0.2)', transition: 'left 0.3s ease', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '11px' }}>
-          {theme.darkMode ? '🌙' : '☀️'}
+          {theme.darkMode ? '' : ''}
         </div>
       </div>
 
